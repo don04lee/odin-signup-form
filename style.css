@@ -1,0 +1,52 @@
+@font-face {
+  font-family: victorMono;
+  src: url(Victor_Mono/VictorMono-VariableFont_wght.ttf);
+}
+:root {
+  font-family: victorMono;
+}
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0; 
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.left {
+  position: relative;
+  text-align: center;
+}
+
+.right {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.right > .header {
+  font-size: 20px;
+  font-weight: 800;
+  padding: 0; 
+  margin-top: 20vh;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.left > img {
+  width: 40vw;
+  height: 100vh;
+}
+
+.left > .credits {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  color: black;  
+}
