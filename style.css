@@ -28,6 +28,47 @@ body {
   flex-direction: column;
 }
 
+.left > #bg {
+  width: 40vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.left > #banner {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100px;
+  opacity: 0.6;
+  padding: 0;
+  background: black;
+  gap: 20px;
+}
+
+.left > #banner > #odinText {
+  font-size: 40px;
+  color: white;
+}
+
+.left > #banner > #odin {
+  width: 60px;
+}
+
+.left > .credits {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  margin-bottom: 10vh;
+  color: black;  
+}
+
 .right > .upper {
   display: flex;
   flex-direction: column;
@@ -42,18 +83,4 @@ body {
 
 .right > .upper > #ask {
   font-size: 30px;
-}
-
-.left > img {
-  width: 40vw;
-  height: 100vh;
-}
-
-.left > .credits {
-  position: absolute;
-  top: 95%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 15px;
-  color: black;  
 }
