@@ -1,4 +1,4 @@
-Sign-Up Form
+# Sign-Up Form
 
 This is my solution to the Odin Project's SignUp form. This uses newly-founded knowledge of the form attribute, as well as using new units such as vw and vh and percentages to make the look of the site to be satisfactory even at different aspect ratios. HTML and CSS was mostly used, with a sprinkle of JS.
 
