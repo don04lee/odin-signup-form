@@ -30,29 +30,29 @@
           <div class="leftForm">
             <div class="firstName">
               <label for="firstName">First Name</label>
-              <input type="text" id="firstName" placeholder="Bob" required>
+              <input type="text" id="firstName" placeholder="Bob" pattern="[a-zA-Z]+" title="Please do not include numbers" required>
             </div>
             <div class="email">
               <label for="email">Email</label>
-              <input type="text" id="email" placeholder="...@email.com" required>
+              <input type="text" id="email" placeholder="...@email.com" pattern="@" title="Please add the domain" required>
             </div>
             <div class="password">
               <label for="password">Password</label>
-              <input type="text" id="password" required>
+              <input type="password" id="password" required>
             </div>
           </div>
           <div class="rightForm">
             <div class="lastName">
               <label for="lastName">Last Name</label>
-              <input type="text" id="lastName" placeholder="Smith" required>
+              <input type="text" id="lastName" placeholder="Smith" pattern="[a-zA-Z]+" title="Please do not include numbers" required>
             </div>
             <div class="phone">
               <label for="phone">Phone Number</label>
-              <input type="text" id="phone" placeholder="XXX-XXXX-XXXX">
+              <input type="text" id="phone" placeholder="XXX-XXXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please put it in the format of: 123-456-7890"required>
             </div>
             <div class="confirm">
               <label for="confirm">Confirm Password</label>
-              <input type="text" id="confirm">
+              <input type="password" id="confirm" required>
             </div>
           </div>
         </div>
