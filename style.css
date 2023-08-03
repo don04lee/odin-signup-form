@@ -84,3 +84,24 @@ body {
 .right > .upper > #ask {
   font-size: 30px;
 }
+
+.right > .lower {
+  margin-top: 10vh;
+  background-color: whitesmoke;
+}
+
+.right > .lower > .title {
+  font-size: 30px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 10% auto;
+  justify-content: space-between;
+}
+
+input {
+  max-width: 200px;
+}
