@@ -171,3 +171,7 @@ a {
 a:hover {
   color: gold;
 }
+
+.error {
+  border-color: red;
+}
