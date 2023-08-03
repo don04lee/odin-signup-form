@@ -30,7 +30,7 @@ body {
 
 .left > #bg {
   width: 40vw;
-  height: 100vh;
+  height: 105vh;
   object-fit: cover;
 }
 
@@ -91,14 +91,15 @@ body {
 }
 
 .right > .lower > .title {
+  margin: 2vh auto;
   font-size: 30px;
 }
 
 .right > .lower > form {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 2vh;
   width: 100%;
-  margin: 10% auto;
   justify-content: space-around;
     
 } 
