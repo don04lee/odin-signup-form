@@ -26,38 +26,42 @@
     <div class="lower">
       <div class="title">Let's Do This!</div>
       <form>
-        <div class="leftForm">
-          <div class="firstName">
-            <label for="firstName">First Name</label>
-            <input type="text" id="firstName" placeholder="Bob">
+        <div class="inputs">
+          <div class="leftForm">
+            <div class="firstName">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" placeholder="Bob" required>
+            </div>
+            <div class="email">
+              <label for="email">Email</label>
+              <input type="text" id="email" placeholder="...@email.com" required>
+            </div>
+            <div class="password">
+              <label for="password">Password</label>
+              <input type="text" id="password" required>
+            </div>
           </div>
-          <div class="email">
-            <label for="email">Email</label>
-            <input type="text" id="email" placeholder="...@email.com">
-          </div>
-          <div class="password">
-            <label for="password">Password</label>
-            <input type="text" id="password">
+          <div class="rightForm">
+            <div class="lastName">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" placeholder="Smith" required>
+            </div>
+            <div class="phone">
+              <label for="phone">Phone Number</label>
+              <input type="text" id="phone" placeholder="XXX-XXXX-XXXX">
+            </div>
+            <div class="confirm">
+              <label for="confirm">Confirm Password</label>
+              <input type="text" id="confirm">
+            </div>
           </div>
         </div>
-        <div class="rightForm">
-          <div class="lastName">
-            <label for="lastName">Last Name</label>
-            <input type="text" id="lastName" placeholder="Smith">
-          </div>
-          <div class="phone">
-            <label for="phone">Phone Number</label>
-            <input type="text" id="phone" placeholder="XXX-XXXX-XXXX">
-          </div>
-          <div class="confirm">
-            <label for="confirm">Confirm Password</label>
-            <input type="text" id="confirm">
-          </div>
+        <div class="submit-button">
+          <button type="submit" class="create">Create Account</button>
         </div>
       </form>
     </div>
     <div class="footer">
-      <div class="create">Create Account</div>
       <div class="login">Already have an account?<a href="#"> Log in.</a></div>
     </div>
   </div>

@@ -85,18 +85,20 @@ body {
   font-size: 30px;
 }
 
-.right > .lower {
+.lower {
+  display: flex;
   margin-top: 10vh;
   background-color: whitesmoke;
-  flex: 1;
+  flex-direction: column;
+
 }
 
-.right > .lower > .title {
+.title {
   margin: 2vh auto;
   font-size: 30px;
 }
 
-.right > .lower > form {
+.inputs {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 2vh;
@@ -104,8 +106,8 @@ body {
   justify-content: space-around;
 } 
 
-.right > .lower > form > .leftForm,
-.right > .lower > form > .rightForm {
+.leftForm,
+.rightForm {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -130,29 +132,30 @@ input:focus {
   background-color: lightgray;
 }
 
-.right > .footer {
+.footer {
   display: flex;
   flex-direction: column;
   gap: 1vh;
-  margin-top: 5vh;
+  margin-top: 3vh;
   margin-bottom: 5vh;
 }
 
-.right > .footer > .create {
-  display: flex;
+.create {
   background-color: gold;
+  width: 100%;
   min-height: 6vh;
   align-items: center;
   justify-content: center;
   font-size: 100%;
+  border: none; 
 }
 
-.right > .footer > .create:hover {
+.create:hover {
   background-color: fuchsia;
   color: gold;
 }
 
-.right > .footer > .login {
+.login {
   display: flex;
   background-color: whitesmoke;
   font-size: 75%;
