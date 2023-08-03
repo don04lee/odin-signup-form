@@ -163,12 +163,12 @@ input:focus {
   align-items: center;
 }
 
-a {
+.right > .footer > .login > a {
   color: fuchsia;
   text-decoration: none;
 }
 
-a:hover {
+.right > .footer > .login > a:hover {
   color: gold;
 }
 
