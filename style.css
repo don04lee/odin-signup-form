@@ -94,14 +94,37 @@ body {
   font-size: 30px;
 }
 
-form {
+.right > .lower > form {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
   margin: 10% auto;
+  justify-content: space-around;
+    
+} 
+
+.right > .lower > form > .leftForm,
+.right > .lower > form > .rightForm {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  text-align: left;
+  width: 200px;
+  gap: 20px;
 }
 
 input {
-  max-width: 200px;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 100%;
+  font-family: victorMono;
+  outline: none;
+  box-shadow: none;
+  border-color: black;
+}
+
+input:focus {
+  border-color: fuchsia;
+  background-color: lightgray;
 }
